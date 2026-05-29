@@ -34,10 +34,10 @@ Most "scan your food" apps either (a) charge a subscription, (b) ship your data 
 
 | Platform | How to install | Cost |
 |---|---|---|
-| **iPhone / iPad** | Open the [PWA link](#) in Safari → Share → **Add to Home Screen** | Free |
+| **iPhone / iPad** | Open the [PWA link](https://rinkal-27.github.io/PlateIQ/) in Safari → Share → **Add to Home Screen** | Free |
 | **Android** | Download the latest `.apk` from the [Releases page](../../releases) and tap to install | Free |
-| **Android (browser)** | Open the [PWA link](#) in Chrome → menu → **Install app** | Free |
-| **Desktop** | Open the [PWA link](#) in Chrome / Edge → install icon in address bar | Free |
+| **Android (browser)** | Open the [PWA link](https://rinkal-27.github.io/PlateIQ/) in Chrome → menu → **Install app** | Free |
+| **Desktop** | Open the [PWA link](https://rinkal-27.github.io/PlateIQ/) in Chrome / Edge → install icon in address bar | Free |
 
 > Replace the `#` links above with your GitHub Pages URL and Release assets once you've published (see "Distribute" below).
 
