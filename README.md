@@ -143,6 +143,3 @@ These are the obvious next ships, each is a tidy ~2-day add:
 - **Community ingredient DB** synced from Open Food Facts taxonomy
 - **Recipe scan** mode (OCR the back of a meal-kit box)
 
-## License
-
-MIT. The Open Food Facts data is ODbL.
