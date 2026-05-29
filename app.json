@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "PlateIQ",
+    "slug": "plateiq",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "plateiq",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#0B1220",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.plateiq.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "PlateIQ uses the camera to scan barcodes, food labels, and your plate to analyse nutrition on-device.",
+        "NSPhotoLibraryUsageDescription": "PlateIQ reads photos of food labels and meals so it can decode ingredients on-device."
+      }
+    },
+    "android": {
+      "package": "com.plateiq.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B1220"
+      },
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png",
+      "name": "PlateIQ",
+      "shortName": "PlateIQ",
+      "lang": "en",
+      "themeColor": "#0B1220",
+      "backgroundColor": "#0B1220",
+      "display": "standalone",
+      "description": "On-device AI that demystifies food labels and plates. Free, private, runs anywhere."
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow PlateIQ to use the camera to scan food labels and plates."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow PlateIQ to access your photos to analyse food labels."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
